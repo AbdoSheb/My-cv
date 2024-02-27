@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Cairo", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;  
+}
+header {
+    display: flex;
+    background-color: #fcf0bd;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px 10px 5px;
+}
+.logo {
+    color: red;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+nav a {
+    color: red;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 20px;
+}
+nav a:hover {
+    color: blue;
+    font-weight: 900;
+}
+.About_me {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMZACYrdz5hrFilFAJhKUvUvnPG1O2SGggJw&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section {
+    padding: 100px 150px;
+}
+.About_me h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.About_me h2 span {
+    color: red;
+}
+.About_me h3 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.Content-me {
+    display: inline-block;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin: 10px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.Content-me:hover {
+    background-color: blue;
+    transform: scale(1.1);
+}
+.social a {
+    color:  white;
+    font-size: 30px;
+    padding-left: 25px;
+}
+.My-Languages {
+    text-align: center;
+    background-color: #a3e3ec;
+    border-top: 4px solid black;
+}
+.My-Languages h2 {
+    color: red;
+    font-size: 35px;
+}
+.My-Languages p {
+    color: rgb(10, 10, 10);
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.services {
+    display: flex;
+}
+.box {
+    background-color: #fff;
+    padding: 20px;
+    width: 33%;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.box:hover {
+    background-color: #eeebeb;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px red;
+    transform: scale(1.05);
+}
+.box h3 {
+    font-size: 25px;
+}
+.icon{
+    color: red;
+    font-size: 35px;
+}
+.Certificates {
+    text-align: center;
+    border-top : 2px solid black;
+}
+.Certificates h2 {
+    color: red;
+    font-size: 35px;
+}
+.Certificates p {
+    color: rgb(10, 10, 10);
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.photos {
+    display: flex;
+}
+.photos img {
+    width: 100%;
+}
+.photo {
+    margin: 20px;
+}
+.contact-us {
+    background-color: #a3e3ec;
+    text-align: center;
+    border-top : 2px solid black;
+}
+.contact-us h2 {
+    color: red;
+    font-size: 35px;
+}
+.contact-us p {
+    color: rgb(10, 10, 10);
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.contact-area {
+    width: 60%;
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 35px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+}
+.form-input input {
+    width: 60%;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #1f1e1e;
+}
+.form-input textarea {
+    width: 60%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #1f1e1e;
+}
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+.send {
+    padding: 5px 25px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.send:hover {
+    background-color: white;
+    border: 2px solid red;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+footer {
+    border-top: 5px solid red;
+    background-color: #1f1e1e;
+    padding-top: 50px;
+    text-align: center;
+}
+footer {
+    color: white;
+    font-size: 22px;
+}
+.social a:hover{
+    font-size: 37px;
+}
